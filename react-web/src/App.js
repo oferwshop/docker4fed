@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   state = {msg: ''}
   componentDidMount() {
-    fetch('/users').then(res => res.json()).then(res => this.setState({ msg: res.msg })); }
+    fetch('/hello').then(res => res.json()).then(res => this.setState({ msg: res.msg })); }
   render() {
     return (
       <div className="App">
