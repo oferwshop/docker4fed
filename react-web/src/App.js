@@ -15,7 +15,7 @@ class App extends Component {
           <img src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Docker_container_engine_logo.png" style={{height: '100%', paddingTop: '18px'}} className="App-logo"/>
           <img src={logo} className="App-logo" alt="logo" style={{height: '90%'}} />
         </div>
-          <h1 style={{zIndex: '9999', marginTop: '100px'}}">
+          <h1 style={{zIndex: '9999', marginTop: '100px'}}>
             { this.state.msg }
           </h1>
         </header>
