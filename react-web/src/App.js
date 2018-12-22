@@ -11,9 +11,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <div style="height: 277px;max-height: 300px;">
-          <img class="App-logo" src="http://pluspng.com/img-png/nodejs-logo-png--435.png" style="height: 65%;margin-right: 60px;margin-bottom: 35px;">
-          <img src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Docker_container_engine_logo.png" style="height: 100%;padding-top: 18px;" class="App-logo">
-          <img src={logo} class="App-logo" alt="logo" style="height: 90%;">
+          <img class="App-logo" src="http://pluspng.com/img-png/nodejs-logo-png--435.png" style="height: 65%;margin-right: 60px;margin-bottom: 35px;"/>
+          <img src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Docker_container_engine_logo.png" style="height: 100%;padding-top: 18px;" class="App-logo"/>
+          <img src={logo} class="App-logo" alt="logo" style="height: 90%;" />
         </div>
           <h1 style="z-index: 9999;margin-top: 100px;">
             { this.state.msg }
